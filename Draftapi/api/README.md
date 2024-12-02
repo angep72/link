@@ -38,9 +38,9 @@ The Weather App is a Flutter-based mobile application that uses the **OpenWeathe
 
 ## State Management
 
-### **Provider** for State Management
+### **seState** for State Management
 
-Provider was used to centralize the app's state and pass it down to the relevant widgets.
+setState was used to centralize the app's state and pass it down to the relevant widgets.
 
 #### 1. Weather Data State
 - A class extending **ChangeNotifier** is used to manage and store the weather data.
